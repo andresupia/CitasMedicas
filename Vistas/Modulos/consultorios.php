@@ -77,11 +77,11 @@ if ($_SESSION["Rol"] != "Secretaria" && $_SESSION["Rol"] != "Administrador"){
 
                             <td>
                                 <div class="btn-group">
-                                    <a href="http://localhost/clinica/E-C/'.$value["id"].'">
+                                    <a href="http://localhost/ClinicaSantaLucia/E-C/'.$value["id"].'">
                                         <button class="btn btn-success"><i class="fa fa-pencil"></i> Editar</button>
                                     </a>
 
-                                    <a href="http://localhost/clinica/consultorios/'.$value["id"].'">
+                                    <a href="http://localhost/ClinicaSantaLucia/consultorios/'.$value["id"].'">
                                         <button class="btn btn-danger"><i class="fa fa-times"></i> Borrar</button>
                                     </a>
                                 </div>

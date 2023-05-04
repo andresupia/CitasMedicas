@@ -1,6 +1,6 @@
 <header class="main-header">
     <!-- Logo -->
-    <a href="http://localhost/clinica/inicio" class="logo">
+    <a href="http://localhost/ClinicaSantaLucia/inicio" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>CSL</b></span>
         <!-- logo for regular state and mobile devices -->
@@ -26,9 +26,9 @@
                         <?php
                         if ($_SESSION["Foto"] == "" OR $_SESSION["Foto"] == null){
 
-                            echo '<img src="http://localhost/clinica/Vistas/img/defecto.png" class="user-image" alt="User Image">';
+                            echo '<img src="http://localhost/ClinicaSantaLucia/Vistas/img/defecto.png" class="user-image" alt="User Image">';
                         }else{
-                            echo '<img src="http://localhost/clinica/Vistas/img/'.$_SESSION["Rol"].'/'.$_SESSION["Foto"].'" class="user-image" alt="User Image">';
+                            echo '<img src="http://localhost/ClinicaSantaLucia/Vistas/img/'.$_SESSION["Rol"].'/'.$_SESSION["Foto"].'" class="user-image" alt="User Image">';
 
                         }
                         ?>
@@ -43,13 +43,13 @@
                         <li class="user-footer">
                             <div class="pull-left">
                                 <?php
-                                echo '<a href="http://localhost/clinica/perfil-'.$_SESSION["Rol"].'" class="btn btn-primary btn-flat">Perfil</a>'
+                                echo '<a href="http://localhost/ClinicaSantaLucia/perfil-'.$_SESSION["Rol"].'" class="btn btn-primary btn-flat">Perfil</a>'
                                 ?>
 
 
                             </div>
                             <div class="pull-right">
-                                <a href="http://localhost/clinica/salir" class="btn btn-danger btn-flat">Salir</a>
+                                <a href="http://localhost/ClinicaSantaLucia/salir" class="btn btn-danger btn-flat">Salir</a>
                             </div>
                         </li>
                     </ul>

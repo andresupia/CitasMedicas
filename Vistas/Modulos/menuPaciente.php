@@ -5,7 +5,7 @@
         <ul class="sidebar-menu">
 
             <li>
-                <a href="http://localhost/clinica/inicio">
+                <a href="http://localhost/ClinicaSantaLucia/inicio">
                     <i class="fa fa-home"></i>
                     <span>Inicio</span>
                 </a>
@@ -13,7 +13,7 @@
 
 
             <li>
-                <a href="http://localhost/clinica/Ver-consultorios">
+                <a href="http://localhost/ClinicaSantaLucia/Ver-consultorios">
                     <i class="fa fa-medkit"></i>
                     <span>Consultorios</span>
                 </a>
@@ -21,7 +21,7 @@
 
             <li>
                 <?php
-                    echo '<a href="http://localhost/clinica/historial/'.$_SESSION["id"].'">';
+                    echo '<a href="http://localhost/ClinicaSantaLucia/historial/'.$_SESSION["id"].'">';
                 ?>
                     <i class="fa fa-calendar-check-o"></i>
                     <span>Historial</span>
