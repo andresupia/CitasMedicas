@@ -1,2 +1,2 @@
-# clinica
-Proyecto Clinica Santa Lucia
+# ASSOC
+ASSOC.SAS
